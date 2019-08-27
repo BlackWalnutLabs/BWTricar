@@ -67,7 +67,7 @@ bwtricar.v2.sendCommand('keepAround')
 
 ## Send API Command
 
-&emsp;&emsp;Send control instructions based on API documentation
+&emsp;&emsp;Send control instructions based on API documentation.
 
 ``` python
 bwtricar.v2.sendCommandDirectly({'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0})
