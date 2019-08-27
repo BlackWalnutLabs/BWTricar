@@ -1,5 +1,14 @@
 # coding=utf-8
-# module.py 常用模块
+
+#
+# Copyright (c) 2019, BlackWalnut Labs.  All rights reserved.
+#
+# BlackWalnut Labs. and its licensors retain all intellectual property
+# and proprietary rights in and to this software, related documentation
+# and any modifications thereto.  Any use, reproduction, disclosure or
+# distribution of this software and related documentation without an express
+# license agreement from BlackWalnut Labs. is strictly prohibited.
+#
 
 from periphery import Serial
 import json
