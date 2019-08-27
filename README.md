@@ -1,6 +1,8 @@
 # BWTricar
 
-A Python library that can easily controls the Navigator
+A Python library that can easily controls the Navigator.
+
+[README](README.md) | [中文文档](README_zh.md)
 
 ## Install
 
@@ -41,7 +43,7 @@ bwtricar.v2.setSpeed(3)
 # Turn left
 bwtricar.v2.sendCommand('left')
 
-# TUrn left quickly
+# Turn left quickly
 bwtricar.v2.sendCommand('leftQuickly')
 
 # Turn right
@@ -59,7 +61,7 @@ bwtricar.v2.sendCommand('around')
 # Stop
 bwtricar.v2.sendCommand('stop')
 
-# Still turn around until another command
+# Still turn around until another command comes
 bwtricar.v2.sendCommand('keepAround')
 ```
 
