@@ -87,3 +87,11 @@ bwtricar.v2.sendCommandDirectly({'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0}
 
 ## Sample
 
+* [Turn Left](sample/left.py)
+* [Turn Left Quickly](sample/leftQuickly.py)
+* [Turn Right](sample/right.py)
+* [Turn Right Quickly](sample/rightQuickly.py)
+* [Go Straight](sample/straight.py)
+* [Turn Around](sample/around.py)
+* [Stop](sample/stop.py)
+* [Keep Turn Around](sample/keepAround.py)
