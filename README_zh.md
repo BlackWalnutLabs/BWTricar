@@ -67,7 +67,7 @@ bwtricar.v2.sendCommand('keepAround')
 
 ## 发送 API 命令
 
-&emsp;&emsp;根据 `API` 文档发送控制指令。
+&emsp;&emsp;根据 [API 文档](docs/api_doc.pdf)发送控制指令。
 
 ``` python
 bwtricar.v2.sendCommandDirectly({'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0})
