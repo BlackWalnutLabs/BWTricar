@@ -64,10 +64,18 @@ speedParams = [{
 
 currentAbsSpeed = speedParams[2]
 
-def init():
+interfaceDict = {
+    'UART': '/dev/ttyTHS1',
+    'USB': '/dev/ttyUSB0'
+}
+
+def init(interfaceType):
     global serial
 
-    serial = Serial('/dev/ttyTHS1', 115200)
+    if(interfaceDict.get(interfaceType) != None):
+        serial = Serial(interfaceDict[interfaceType], 115200)
+    else:
+        print('Interface type not exist, please concat us.')
 
 def setSpeed(speed):
     global currentAbsSpeed
