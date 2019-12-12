@@ -87,3 +87,6 @@ def sendCommand(command):
 
 def sendCommandDirectly(command):
     serial.write(bytes(json.dumps(command), encoding="utf8"))
+
+def sendCommandDirectlyWithoutJSON(command):
+    serial.write(command)

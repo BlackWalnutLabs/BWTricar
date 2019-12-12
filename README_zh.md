@@ -73,6 +73,14 @@ bwtricar.v2.sendCommand('keepAround')
 bwtricar.v2.sendCommandDirectly({'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0})
 ```
 
+## 串口直接发送数据
+
+&emsp;&emsp;直接往串口传数据，不经过预处理。
+
+``` python
+bwtricar.v2.sendCommandDirectlyWithoutJSON(bytes(json.dumps({'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0}), encoding="utf8"))
+```
+
 ## 命令优先级
 
 &emsp;&emsp;若存在 `A,B` 两个指令，当 `A` 指令下发，而车辆尚未完成 `A` 指令要求的动作时， `B` 指令下发，则此时车辆会根据 `AB` 指令优先级判断此时应该运行什么动作。若 `A` 指令优先级高于 `B` ，则会继续运行 `A` 的动作，永久抛弃 `B` 指令。若 `B` 指令优先级高于 `A` ，则终止 `A` 指令的动作，立即执行 `B` 指令的动作。若 `A,B` 优先级相同，则运行 `B` 指令的动作。
@@ -103,6 +111,7 @@ bwtricar.v2.sendCommandDirectly({'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0}
 * 2019.12.12：
     * 新增 `USB` 转串口支持（`ttyUSB0`）。
     * 添加更新日志。
+    * 支持直接往串口发数据。
 * 2019.11.07：
     * 添加 `Navigator` 系列产品控制 `API` 文档。
 * 2019.11.06：

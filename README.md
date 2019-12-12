@@ -73,6 +73,14 @@ bwtricar.v2.sendCommand('keepAround')
 bwtricar.v2.sendCommandDirectly({'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0})
 ```
 
+## Serial port to send data directly
+
+&emsp;&emsp;Send data directly to the serial port without preprocessing.
+
+``` python
+bwtricar.v2.sendCommandDirectlyWithoutJSON(bytes(json.dumps({'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0}), encoding="utf8"))
+```
+
 ## Command Priority
 
 &emsp;&emsp;If there are two commands A and B, when the A command is issued and the vehicle has not completed the action required by the A command, the B command is issued, then the vehicle will judge what action should be run according to the priority of the AB command. If the A command has a higher priority than B, it will continue to run the A action and permanently discard the B command. If the priority of the B command is higher than A, the action of the A command is terminated, and the action of the B command is immediately executed. If A and B have the same priority, the action of the B command is executed.
@@ -103,6 +111,7 @@ bwtricar.v2.sendCommandDirectly({'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0}
 * 2019.12.12:
     * Added `USB` to serial port support (`ttyUSB0`).
     * Add change log.
+    * Support sending data directly to serial port.
 * 2019.11.07:
     * Add `Navigator` series product control `API` document.
 * 2019.11.06:
