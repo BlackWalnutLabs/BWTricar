@@ -22,7 +22,7 @@ import bwtricar
 ## Init
 
 ``` python
-bwtricar.v2.init()
+bwtricar.v2.init('UART')
 ```
 
 ## Set speed
