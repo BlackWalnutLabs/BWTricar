@@ -97,3 +97,17 @@ bwtricar.v2.sendCommandDirectly({'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0}
 * [Turn Around](sample/around.py)
 * [Stop](sample/stop.py)
 * [Keep Turn Around](sample/keepAround.py)
+
+## Change log
+
+* 2019.12.12:
+    * Added `USB` to serial port support (`ttyUSB0`).
+    * Add change log.
+* 2019.11.07:
+    * Add `Navigator` series product control `API` document.
+* 2019.11.06:
+    * Added Chinese documentation.
+* 2019.08.26:
+    * Supports `Jetson Nano` dock (`ttyTHS1`).
+    * Open source the project.
+    * Added English documentation.

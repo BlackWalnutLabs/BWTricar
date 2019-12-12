@@ -22,7 +22,7 @@ import bwtricar
 ## 初始化
 
 ``` python
-bwtricar.v2.init()
+bwtricar.v2.init('UART')
 ```
 
 ## 设置速度
@@ -97,3 +97,17 @@ bwtricar.v2.sendCommandDirectly({'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0}
 * [Turn Around](sample/around.py)
 * [Stop](sample/stop.py)
 * [Keep Turn Around](sample/keepAround.py)
+
+## 更新日志
+
+* 2019.12.12：
+    * 新增 `USB` 转串口支持（`ttyUSB0`）。
+    * 添加更新日志。
+* 2019.11.07：
+    * 添加 `Navigator` 系列产品控制 `API` 文档。
+* 2019.11.06：
+    * 添加中文文档说明。
+* 2019.08.26：
+    * 支持 `Jetson Nano` 串口（`ttyTHS1`）。
+    * 项目开源。
+    * 添加英文文档说明。

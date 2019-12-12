@@ -10,6 +10,6 @@
 
 import bwtricar
 
-bwtricar.v2.init()
+bwtricar.v2.init('UART')
 bwtricar.v2.setSpeed(3)
 bwtricar.v2.sendCommand('left')
