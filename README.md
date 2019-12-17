@@ -22,7 +22,8 @@ import bwtricar
 ## Init
 
 ``` python
-bwtricar.v2.init('UART')
+# Use 'ttyTHS1' by default
+bwtricar.v2.init()
 ```
 
 ## Set speed
@@ -108,6 +109,8 @@ bwtricar.v2.sendCommandDirectlyWithoutJSON(bytes(json.dumps({'o': 0, 'v': 0, 'c'
 
 ## Change log
 
+* 2019.12.17:
+    * Compatible with the previous usage of `2019.12.12`, the` ttyTHS1` serial port is used by default.
 * 2019.12.12:
     * Added `USB` to serial port support (`ttyUSB0`).
     * Add change log.

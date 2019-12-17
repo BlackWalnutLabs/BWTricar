@@ -22,7 +22,8 @@ import bwtricar
 ## 初始化
 
 ``` python
-bwtricar.v2.init('UART')
+# 默认使用 'ttyTHS1' 串口
+bwtricar.v2.init()
 ```
 
 ## 设置速度
@@ -108,6 +109,8 @@ bwtricar.v2.sendCommandDirectlyWithoutJSON(bytes(json.dumps({'o': 0, 'v': 0, 'c'
 
 ## 更新日志
 
+* 2019.12.17:
+    * 兼容 `2019.12.12` 前用法，默认使用 `ttyTHS1` 串口。
 * 2019.12.12：
     * 新增 `USB` 转串口支持（`ttyUSB0`）。
     * 添加更新日志。

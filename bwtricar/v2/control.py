@@ -69,7 +69,7 @@ interfaceDict = {
     'USB': '/dev/ttyUSB0'
 }
 
-def init(interfaceType):
+def init(interfaceType = 'UART'):
     global serial
 
     if(interfaceDict.get(interfaceType) != None):
