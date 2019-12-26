@@ -1,6 +1,6 @@
 # BWTricar
 
-一个简单控制领航者的 `Python` 库。
+一个基于 `python-periphery` 的简单控制领航者的 `Python` 库。
 
 [README](README.md) | [中文文档](README_zh.md)
 
@@ -109,6 +109,8 @@ bwtricar.v2.sendCommandDirectlyWithoutJSON(bytes(json.dumps({'o': 0, 'v': 0, 'c'
 
 ## 更新日志
 
+* 2019.12.26:
+    * 更新引用。
 * 2019.12.17:
     * 兼容 `2019.12.12` 前用法，默认使用 `ttyTHS1` 串口。
 * 2019.12.12：

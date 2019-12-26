@@ -1,6 +1,6 @@
 # BWTricar
 
-A Python library that can easily controls the Navigator.
+A Python library that can easily controls the Navigator based on `python-periphery`.
 
 [README](README.md) | [中文文档](README_zh.md)
 
@@ -109,6 +109,8 @@ bwtricar.v2.sendCommandDirectlyWithoutJSON(bytes(json.dumps({'o': 0, 'v': 0, 'c'
 
 ## Change log
 
+* 2019.12.26:
+    * Update reference.
 * 2019.12.17:
     * Compatible with the previous usage of `2019.12.12`, the` ttyTHS1` serial port is used by default.
 * 2019.12.12:
