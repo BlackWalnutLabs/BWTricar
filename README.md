@@ -109,6 +109,10 @@ bwtricar.v2.sendCommandDirectlyWithoutJSON(bytes(json.dumps({'o': 0, 'v': 0, 'c'
 
 ## Change log
 
+* 2020.01.06:
+    * Turn slower.
+    * Add `pan` command to `3rd` speed.
+    * Add `turn` command to `3rd` speed.
 * 2019.12.26:
     * Update reference.
 * 2019.12.17:

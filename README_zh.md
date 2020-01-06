@@ -109,6 +109,10 @@ bwtricar.v2.sendCommandDirectlyWithoutJSON(bytes(json.dumps({'o': 0, 'v': 0, 'c'
 
 ## 更新日志
 
+* 2020.01.06:
+    * 降低转弯速度
+    * `3` 档速度添加 `平移` 指令
+    * `3` 档速度添加 `右转 90` 指令
 * 2019.12.26:
     * 更新引用。
 * 2019.12.17:

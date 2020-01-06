@@ -21,61 +21,56 @@ speedParams = [{
     'right': {'o': 0, 'v': 6, 'c': 0, 'd': 1, 'r': 20000, 'a': 0},
     'rightQuickly': {'o': 0, 'v': 5, 'c': 0, 'd': 1, 'r': 9000, 'a': 0},
     'straight': {'o': 0, 'v': 7, 'c': 0, 'd': 0, 'r': 0, 'a': 0},
-    'around': {'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 1000, 'a': 180},
+    'around': {'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 5000, 'a': 180},
     'stop': {'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0},
-    'keepAround':{'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 6000, 'a': 0}
+    'keepAround':{'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 15000, 'a': 0}
 }, {
     'left': {'o': 0, 'v': 12, 'c': 0, 'd': 0, 'r': 18000, 'a': 0},
     'leftQuickly': {'o': 0, 'v': 10, 'c': 0, 'd': 0, 'r': 7000, 'a': 0},
     'right': {'o': 0, 'v': 12, 'c': 0, 'd': 1, 'r': 18000, 'a': 0},
     'rightQuickly': {'o': 0, 'v': 10, 'c': 0, 'd': 1, 'r': 7000, 'a': 0},
     'straight': {'o': 0, 'v': 14, 'c': 0, 'd': 0, 'r': 0, 'a': 0},
-    'around': {'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 1000, 'a': 180},
+    'around': {'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 5000, 'a': 180},
     'stop': {'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0},
-    'keepAround':{'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 6000, 'a': 0}
+    'keepAround':{'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 15000, 'a': 0}
 }, {
     'left': {'o': 0, 'v': 15, 'c': 0, 'd': 0, 'r': 15000, 'a': 0},
     'leftQuickly': {'o': 0, 'v': 10, 'c': 0, 'd': 0, 'r': 7000, 'a': 0},
+    'leftParallel':{'o': 0, 'v': 10, 'c': 270, 'd': 0, 'r': 0, 'a': 0},
     'right': {'o': 0, 'v': 15, 'c': 0, 'd': 1, 'r': 15000, 'a': 0},
     'rightQuickly': {'o': 0, 'v': 10, 'c': 0, 'd': 1, 'r': 7000, 'a': 0},
+    'rightParallel':{'o': 0, 'v': 10, 'c': 90, 'd': 0, 'r': 0, 'a': 0},
     'straight': {'o': 0, 'v': 21, 'c': 0, 'd': 0, 'r': 0, 'a': 0},
-    'around': {'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 1000, 'a': 180},
+    'around': {'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 5000, 'a': 180},
     'stop': {'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0},
-    'keepAround':{'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 6000, 'a': 0}
+    'keepAround':{'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 15000, 'a': 0},
+    'turn90':{'o':0, 'v':0, 'c': 0, 'd': 1, 'r':8000 , 'a': 90}
 }, {
     'left': {'o': 0, 'v': 24, 'c': 0, 'd': 0, 'r': 13000, 'a': 0},
     'leftQuickly': {'o': 0, 'v': 10, 'c': 0, 'd': 0, 'r': 7000, 'a': 0},
     'right': {'o': 0, 'v': 24, 'c': 0, 'd': 1, 'r': 13000, 'a': 0},
     'rightQuickly': {'o': 0, 'v': 10, 'c': 0, 'd': 1, 'r': 7000, 'a': 0},
     'straight': {'o': 0, 'v': 28, 'c': 0, 'd': 0, 'r': 0, 'a': 0},
-    'around': {'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 1000, 'a': 180},
+    'around': {'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 5000, 'a': 180},
     'stop': {'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0},
-    'keepAround':{'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 6000, 'a': 0}
+    'keepAround':{'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 10000, 'a': 0}
 }, {
     'left': {'o': 0, 'v': 29, 'c': 0, 'd': 0, 'r': 10000, 'a': 0},
     'leftQuickly': {'o': 0, 'v': 10, 'c': 0, 'd': 0, 'r': 7000, 'a': 0},
     'right': {'o': 0, 'v': 29, 'c': 0, 'd': 1, 'r': 10000, 'a': 0},
     'rightQuickly': {'o': 0, 'v': 10, 'c': 0, 'd': 1, 'r': 7000, 'a': 0},
     'straight': {'o': 0, 'v': 35, 'c': 0, 'd': 0, 'r': 0, 'a': 0},
-    'around': {'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 1000, 'a': 180},
+    'around': {'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 5000, 'a': 180},
     'stop': {'o': 0, 'v': 0, 'c': 0, 'd': 0, 'r': 0, 'a': 0},
-    'keepAround':{'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 6000, 'a': 0}
+    'keepAround':{'o': 0, 'v': 0, 'c': 0, 'd': 1, 'r': 10000, 'a': 0}
 }]
 
 currentAbsSpeed = speedParams[2]
 
-interfaceDict = {
-    'UART': '/dev/ttyTHS1',
-    'USB': '/dev/ttyUSB0'
-}
-
-def init(interfaceType = 'UART'):
+def init():
     global serial
 
-    if(interfaceDict.get(interfaceType) != None):
-        serial = Serial(interfaceDict[interfaceType], 115200)
-    else:
-        print('Interface type not exist, please concat us.')
+    serial = Serial('/dev/ttyTHS1', 115200)
 
 def setSpeed(speed):
     global currentAbsSpeed
