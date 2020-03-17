@@ -2,6 +2,8 @@
 
 一个基于 `python-periphery` 的简单控制领航者的 `Python` 库。
 
+> 本项目已合并至 [BWContrib](https://github.com/BlackWalnutLabs/BWContrib.git)，该项目库不再维护。
+
 [README](README.md) | [中文文档](README_zh.md)
 
 ## 安装
@@ -109,6 +111,8 @@ bwtricar.v2.sendCommandDirectlyWithoutJSON(bytes(json.dumps({'o': 0, 'v': 0, 'c'
 
 ## 更新日志
 
+* 2020.03.17:
+    * 项目转移，不再维护
 * 2020.01.06:
     * 降低转弯速度
     * `3` 档速度添加 `平移` 指令

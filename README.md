@@ -2,6 +2,8 @@
 
 A Python library that can easily controls the Navigator based on `python-periphery`.
 
+> This project has been merged into [BWContrib](https://github.com/BlackWalnutLabs/BWContrib.git)，and this project is no longer maintained。
+
 [README](README.md) | [中文文档](README_zh.md)
 
 ## Install
@@ -109,6 +111,8 @@ bwtricar.v2.sendCommandDirectlyWithoutJSON(bytes(json.dumps({'o': 0, 'v': 0, 'c'
 
 ## Change log
 
+* 2020.03.17:
+    * Transfer project, no longer maintained.
 * 2020.01.06:
     * Turn slower.
     * Add `pan` command to `3rd` speed.
